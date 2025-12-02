@@ -1,5 +1,5 @@
-const app = require("../src/app");
-const connectDB = require("../src/db/db");
+const app = require("./src/app");
+const connectDB = require("./src/db/db");
 
 module.exports = async (req, res) => {
   await connectDB();
