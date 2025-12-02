@@ -2,13 +2,10 @@
   "name": "dghisab",
   "version": "1.0.0",
   "main": "server.js",
-
   "scripts": {
     "dev": "node server.js"
   },
-
   "type": "commonjs",
-
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.3",
@@ -21,6 +18,7 @@
     "multer": "^2.0.2",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "puppeteer": "^24.31.0"
+    "puppeteer": "^24.31.0",
+    "serverless-http": "^4.0.0"
   }
 }
